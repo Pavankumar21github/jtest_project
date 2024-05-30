@@ -26,11 +26,11 @@ public class AlwaysCloseRAFs {
             int read = raf.read(bytes, offset, bytes.length);
             res = new String(bytes);
         } catch (Exception e) {
-<<<<<<< HEAD
+
             System.out.println(); // parasoft-suppress SECURITY.ESD.SIO "rule duplicate"
-=======
+
             System.out.println();
->>>>>>> branch 'master' of https://github.com/Pavankumar21github/jtest_project.git
+
         } finally {
             try {
                 raf.close();
