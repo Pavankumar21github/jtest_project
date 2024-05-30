@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // parasoft-begin-suppress ALL "rule duplicate"
+=======
+>>>>>>> branch 'master' of https://github.com/Pavankumar21github/jtest_project.git
 package examples.mock;
 
 import java.io.DataInputStream;
