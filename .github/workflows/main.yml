@@ -36,7 +36,7 @@ jobs:
       run: |
         .\mvnw clean install 
         jtest:jtest "-Djtest.skip=true"
-          shell: powershell
+          shell: bash
     # Runs code analysis with Jtest
     - name: Run Jtest
       id: jtest
