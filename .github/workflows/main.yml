@@ -33,7 +33,7 @@ jobs:
     
     # Generates the jtest.data.json input file.
     - name: Create input for Jtest
-      run: mvn clean install test -Dtest=JTest#pipeDrive
+      run: clean install test -Dtest=JTest#pipeDrive
       shell: bash
 
 
