@@ -33,9 +33,7 @@ jobs:
     
     # Generates the jtest.data.json input file.
     - name: Create input for Jtest
-      run: clean install test -Dtest=JTest#pipeDrive
-      shell: bash
-
+      run: ./mvnw clean install jtest:jtest "-Djtest.skip=true" 
 
     # Runs code analysis with Jtest
     - name: Run Jtest
