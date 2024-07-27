@@ -33,7 +33,7 @@ jobs:
     
     # Generates the jtest.data.json input file.
     - name: Create input for Jtest
-      run: ./mvnw clean install jtest:jtest "-Djtest.skip=true" 
+      run: ./mvnw clean install jtest:jtest "-Djtest.skip=true" --settings D:\apache-maven-3.9.7\conf\settings.xml
 
     # Runs code analysis with Jtest
     - name: Run Jtest
